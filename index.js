@@ -104,7 +104,7 @@ console.log(
 
 function convertToExponential(num) {
    // Використовуємо метод toExponential(), щоб конвертувати число в рядок з експоненційним представленням
-   return Number(num).toExponential();
+   return num.toExponential();
 }
 
 console.log("Завдання 9 ====================================");
@@ -114,7 +114,7 @@ console.log("convertToExponential(42)", convertToExponential(42)); // Вивед
 
 function convertToFixed(num, precision) {
    // Використовуємо метод toFixed(), щоб конвертувати число в рядок з фіксованою кількістю знаків після коми
-   return Number(num).toFixed(precision);
+   return num.toFixed(precision);
 }
 
 console.log("Завдання 10 ====================================");
@@ -124,7 +124,7 @@ console.log("convertToFixed(42.9876, 2)", convertToFixed(42.9876, 2)); // Вив
 
 function convertToString(num) {
    // Використовуємо метод toString(), щоб конвертувати число в рядок
-   return Number(num).toString();
+   return num.toString();
 }
 
 console.log("Завдання 11 ====================================");
@@ -134,7 +134,7 @@ console.log("convertToString(42)", convertToString(42)); // Виведе "42"
 
 function convertToPrecision(num, precision) {
    // Використовуємо метод toPrecision(), щоб округлити число до вказаної довжини
-   return Number(num).toPrecision(precision);
+   return num.toPrecision(precision);
 }
 
 console.log("Завдання 12 ====================================");
